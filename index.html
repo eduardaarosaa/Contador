@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tabuada</title>
+    <title>Vamos contar</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
 <body >
     <header>
-        <h1>Tabuada</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
         <div id="dados">
         
-            <p>Número:<input type="number" id="txt1">
-            <input type="submit" value="Gerar tabuada" onclick="tabuada()"></p>
-        </div>
-        <div>
-            <select name="tabuada" id="seltab" size="10">
+            <p>Início:<input type="number" id="inicio"></p>
+            <p>Fim:<input type="number" id="fim"></p>
+            <p>Passo:<input type="number" id="passo"></p>
+            <input type="submit" value="Contar" onclick="contar()">
 
-            </select>
+        </div>
+        <div id="res"> 
+            Preparando a contagem...
+           
         </div>
         
     </section>
